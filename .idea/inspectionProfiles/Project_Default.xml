@@ -1,0 +1,99 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="https:" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="align" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="ignoredPackages">
+        <value>
+          <list size="8">
+            <item index="0" class="java.lang.String" itemvalue="telebot" />
+            <item index="1" class="java.lang.String" itemvalue="chardet" />
+            <item index="2" class="java.lang.String" itemvalue="pyTelegramBotAPI" />
+            <item index="3" class="java.lang.String" itemvalue="certifi" />
+            <item index="4" class="java.lang.String" itemvalue="requests" />
+            <item index="5" class="java.lang.String" itemvalue="urllib3" />
+            <item index="6" class="java.lang.String" itemvalue="idna" />
+            <item index="7" class="java.lang.String" itemvalue="Django" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E262" />
+          <option value="E305" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="main.Ianov" />
+          <option value="main.h" />
+          <option value="test2.Mountain.name" />
+          <option value="test2.Mountain.heigth" />
+          <option value="yatube.yatube.file.chislo" />
+          <option value="yatube.yatube.file.num" />
+          <option value="int.split" />
+          <option value="telebot.TeleBot.message_handler" />
+          <option value="echo_bot.telegram_bot_calendar" />
+          <option value="unittest.case.assertEqual.format" />
+          <option value="django_polls.api.urls.drf_yasg" />
+          <option value="django.db.models.Model" />
+          <option value="django.db.models.ForeignKey" />
+          <option value="django.db.models.CASCADE" />
+          <option value="django.db.models.CharField" />
+          <option value="django.db.models.EmailField" />
+          <option value="django.db.models.DecimalField" />
+          <option value="dating_app.api.models.User.objects" />
+          <option value="dating_app.api.models.Like.objects" />
+          <option value="type.without_ui" />
+          <option value="type.with_ui" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

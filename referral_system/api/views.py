@@ -13,9 +13,6 @@ from .models import User, Referral
 from .serializers import UserSerializers, ReferralSerializers
 
 
-# import authtoken_token
-
-
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializers

@@ -7,9 +7,6 @@ from django.dispatch import receiver
 from rest_framework.authtoken.models import Token
 
 
-# from referral_system.settings import AUTH_USER_MODEL
-
-
 def generate_referral_code():
     return ''.join((random.sample(string.ascii_lowercase + string.digits, 6)))
 
